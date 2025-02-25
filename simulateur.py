@@ -2,12 +2,12 @@ def calcul_interets_simples(capital, taux, duree):
     """
     Calcule les intérêts simples et le total dû.
 
-    Parameters:
+    Parametres:
     - capital (float) : le montant de base.
     - taux (float) : le taux d'intérêt annuel en pourcentage.
     - duree (float) : la durée en années.
 
-    Returns:
+    Resulats:
     - tuple : (intérêts, total dû)
     """
     interets = capital * (taux / 100) * duree
